@@ -1,0 +1,142 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+* {
+    font-family: montserrat sans-serif;
+    margin: auto 0px;
+}
+body {
+    background-color: #181D31;
+}
+.titulo-principal {
+    text-align: center;
+    text-shadow: 2px 2px gray, 6px 6px black;
+    color: white;
+}
+.titulo-principal {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    font-weight: bold;
+}
+header {
+    background: url(./IMG/codigo.jpg) 50% 0 fixed;
+    background-image: url(./IMG/codigo.jpg) ;
+    background-position-x: 50%;
+    background-position-y: 0px;
+    background-repeat:initial;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-color: initial;
+    background-clip: initial;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+
+}
+
+.menu {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    list-style-type: disc;
+    margin-block-start: 1em ;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.item-link {
+    list-style-type: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+
+}
+h2 {
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    text-align: center;
+    color: #678983;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.card {
+    width: 350px;
+    height: 400px;
+    border: 5px solid #678983;
+    background-color: #E6DDC4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarjeta-img {
+    width: 100%;
+    margin: 0px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.caja-padre {
+    margin: 100px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.boton-ver {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #181D31;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 3px #678983;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.desc-card {
+    width: 90%;
+    text-align: center;
+    height: 30px;
+    color: #181D31;
+}
+
+footer {
+    background-color: #678983;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: #181D31;
+}
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 60px;
+}
+.logo {
+    height: 80px
+}
+.titulo-foot {
+    font-size: 14px;
+    text-align: center;
+}
